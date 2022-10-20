@@ -1,3 +1,4 @@
+#holds down mouse button (can do left or right click)
 import pyautogui as pag
 import sys
 import time
@@ -21,11 +22,10 @@ loop=1
 while (loop>0):
     sleep(5)
     print('down')
+    #change this between hold() and holdl()
     hold()
     print('up')
     print(loop)
     sleep(5)
     print("10 seconds")
     loop=loop+1
-
-

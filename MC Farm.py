@@ -1,3 +1,4 @@
+#designed to plant and harvest a farm in minecraft
 import pyautogui as pag
 import sys
 import time
